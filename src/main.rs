@@ -1,10 +1,6 @@
 extern crate clap;
 use clap::{Arg, App};
 
-// mod math;
-// use math::pow as pow;
-// use math::mult as mult;
-
 fn main() {
     let app = App::new("Hello Rust")
                 .arg(Arg::with_name("input")
